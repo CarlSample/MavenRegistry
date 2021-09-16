@@ -5,10 +5,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>ossgraph</groupId>
-    <artifactId>mvn1</artifactId>
+    <artifactId>mvn2</artifactId>
     <version>1.0</version>
 
-    <name>mvn1</name>
+    <name>mvn2</name>
     <url>http://www.coolexample.com</url>
 
     <repositories>
@@ -23,6 +23,13 @@
             </snapshots>
         </repository>
     </repositories>
+    <dependencies>
+        <dependency>
+            <groupId>ossgraph</groupId>
+            <artifactId>mvn1</artifactId>
+            <version>1.0</version>
+        </dependency>
+    </dependencies>
     <distributionManagement>
         <repository>
             <id>internal</id>
